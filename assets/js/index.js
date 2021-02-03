@@ -2,11 +2,11 @@ $(function() {
         // 获取layui当中的模块
         const { layer } = layui;
 
-
         getUserInfo()
 
         // 点击退出
         $('#loginout').click(function() {
+
             // 清除本地存储
             localStorage.removeItem('token');
             // 跳转到登录界面
